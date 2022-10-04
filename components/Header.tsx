@@ -19,10 +19,13 @@ export default function Header({}: Props) {
     setNav(!nav);
   };
   return (
-    <div className="lg:w-screen lg:h-20 h-20 shadow-sm border-b-2 bg-[#FAFFFD] lg:shadow-sm lg:border-b-2 lg:bg-[#FAFFFD]">
+    <div className="lg:h-20 h-20 shadow-sm border-b-2 bg-[#FAFFFD] lg:shadow-sm lg:border-b-2 lg:bg-[#FAFFFD]">
       {/* Mobile first approach : Menu icon, logo and other icons are shown on the nav bar */}
-      <div className="flex lg:flex p-6 space-x-10 lg:flex-row lg:justify-end" onClick={handleNav}>
-        <div className="md:hidden">
+      <div
+        className="flex lg:flex p-6 space-x-10 lg:flex-row md:justify-end"
+        onClick={handleNav}
+      >
+        <div className="lg:hidden">
           {!nav ? (
             <AiOutlineClose size={35} color={"black"} />
           ) : (
@@ -32,22 +35,23 @@ export default function Header({}: Props) {
         <div className="w-16 md:hidden">
           <Image src={Logopaperlms} />
         </div>
-        <div className="w-8">
-          <Image src={Searchicon} />
-        </div>
-        <div className="w-8">
-          <Image src={Bellicon} />
-        </div>
-        <div className="w-8">
-          <Image src={Avatar} />
+        <div className="flex gap-8 ">
+          <div className="w-8">
+            <Image src={Searchicon} />
+          </div>
+          <div className="w-8">
+            <Image src={Bellicon} />
+          </div>
+          <div className="w-8">
+            <Image src={Avatar} />
+          </div>
         </div>
       </div>
-      
 
       <div
         className={
           !nav
-            ? " fixed p-8 lg:w-2/12 lg:top-0 lg:p-14 left-0 top-[9%] h-full w-[77%] lg:fixed z-10 bg-[#00C285] ease-in-out duration-150"
+            ? " fixed p-8 lg:w-[17%] sm:w-[49%] md:w-[60%] sm:top-0 lg:p-14 left-0 top-[12%] h-full w-[77%] lg:fixed z-10 bg-[#00C285] ease-in-out duration-150"
             : "fixed left-[100%]"
         }
       >
