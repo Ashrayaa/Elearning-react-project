@@ -4,7 +4,7 @@ import Image from "next/image";
 
 type Props = {};
 
-export default function ({}: Props) {
+export default function Liveclass({}: Props) {
   return (
     <div className="lg:ml-80 mt-8 lg:m-14">
       <h2 className="text-xl ml-8 font-semibold lg:text-3xl">
