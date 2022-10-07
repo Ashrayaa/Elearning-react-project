@@ -18,7 +18,7 @@ export default function Carousell({}: Props) {
         <div>
           <Image src={Carousel2} />
         </div>
-        <div>
+        <div >
           <Image src={Carousel3} />
         </div>
       </Carousel>

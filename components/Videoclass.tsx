@@ -13,9 +13,9 @@ export default function Videoclass({}: Props) {
       <h2 className="text-xl ml-8 font-semibold lg:text-3xl">
         <span className="text-[#00C285]">Learn</span> with Video Classes
       </h2>
-      <div className="flex w-screen sm:w-[100%] md:w-[90%] flex-wrap p-6 gap-4 mx-2 sm:gap-16">
+      <div className="flex w-screen xl:mt-4 sm:w-[100%] md:w-[90%] flex-wrap p-6 gap-4 mx-2 sm:gap-16 xl:w-[80%] xl:gap-20">
         <div className="w-24">
-          <Image src={Physics} />
+          <Image src={Physics} className="cursor-pointer transform hover:scale-125"/>
           <div className="flex flex-col items-center">
             <h1 className="font-bold">Physics</h1>
             <p className="text-gray-400 font-medium">14 Chapters</p>
@@ -23,7 +23,7 @@ export default function Videoclass({}: Props) {
         </div>
 
         <div className="w-24">
-          <Image src={Chemistry} />
+          <Image src={Chemistry} className="cursor-pointer transform hover:scale-125"/>
           <div className="flex flex-col items-center">
             <h4 className="font-bold">Chemistry</h4>
             <p className="text-gray-400 font-medium">14 Chapters</p>
@@ -31,7 +31,7 @@ export default function Videoclass({}: Props) {
         </div>
 
         <div className="w-24">
-          <Image src={Maths} />
+          <Image src={Maths} className="cursor-pointer transform hover:scale-125"/>
           <div className="flex flex-col items-center">
             <h4 className="font-bold">Maths</h4>
             <p className="text-gray-400 font-medium">14 Chapters</p>
@@ -39,14 +39,14 @@ export default function Videoclass({}: Props) {
         </div>
 
         <div className="w-24">
-          <Image src={Biology} />
+          <Image src={Biology} className="cursor-pointer transform hover:scale-125"/>
           <div className="flex flex-col items-center">
             <h4 className="font-bold">Biology</h4>
             <p className="text-gray-400 font-medium">14 Chapters</p>
           </div>
         </div>
         <div className="w-24">
-          <Image src={Physics} />
+          <Image src={Physics} className="cursor-pointer transform hover:scale-125"/>
           <div className="flex flex-col items-center">
             <h4 className="font-bold">Physics</h4>
             <p className="text-gray-400 font-medium">14 Chapters</p>
@@ -54,7 +54,7 @@ export default function Videoclass({}: Props) {
         </div>
 
         <div className="w-24 ">
-          <Image src={Chemistry} />
+          <Image src={Chemistry} className="cursor-pointer transform hover:scale-125"/>
           <div className="flex flex-col items-center">
             <h4 className="font-bold">Chemistry</h4>
             <p className="text-gray-400 font-medium">14 Chapters</p>
@@ -62,7 +62,7 @@ export default function Videoclass({}: Props) {
         </div>
 
         <div className="w-24">
-          <Image src={Maths} />
+          <Image src={Maths} className="cursor-pointer transform hover:scale-125"/>
           <div className="flex flex-col items-center">
             <h4 className="font-bold">Maths</h4>
             <p className="text-gray-400 font-medium">14 Chapters</p>
@@ -70,7 +70,7 @@ export default function Videoclass({}: Props) {
         </div>
 
         <div className="w-24">
-          <Image src={Biology} />
+          <Image src={Biology} className="cursor-pointer transform hover:scale-125"/>
           <div className="flex flex-col items-center">
             <h4 className="font-bold">Biology</h4>
             <p className="text-gray-400 font-medium">14 Chapters</p>
@@ -78,7 +78,7 @@ export default function Videoclass({}: Props) {
         </div>
 
         <div className="w-24">
-          <Image src={Physics} />
+          <Image src={Physics} className="cursor-pointer transform hover:scale-125"/>
           <div className="flex flex-col items-center">
             <h4 className="font-semibold">Physics</h4>
             <p className="text-gray-400 font-medium">14 Chapters</p>
