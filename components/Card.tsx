@@ -8,8 +8,6 @@ type Props = {};
 export default function Card({}: Props) {
   return (
     <div className="bg-[#FAF5FE] rounded-xl flex flex-col relative md:w-[50%]">
-      {/* Image screen */}
-      {/* <div className="relative"> */}
       <div className="relative">
         <Image src={Liveclassbg} height="1400" />
       </div>
@@ -29,18 +27,15 @@ export default function Card({}: Props) {
         </div>
       </div>
       <div className="absolute mt-52 md:mt-[63%] md:px-4 bg-[#1A181D] w-[100%]">
-        <p className=" text-white text-xs">
-          Start at 10:30am - 432 attending
-        </p>
+        <p className=" text-white text-xs">Start at 10:30am - 432 attending</p>
       </div>
 
-      {/* Details screen */}
       <div>
         <div className="flex gap-10">
           <div className="flex flex-col gap-1 p-2">
             <p className="text-[#626262] text-xs font-medium">Chemistry</p>
             <p className="font-semibold text-xs">
-              Beginner's Guide: Biomolecules
+              Beginner&apos;s Guide: Biomolecules
             </p>
             <p className="text-[#626262] font-medium text-xs mb-4">
               37min By Vaibhav Uppal
