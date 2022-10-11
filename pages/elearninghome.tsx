@@ -16,3 +16,4 @@ export default function elearninghome({}: Props) {
     </div>
   );
 }
+
