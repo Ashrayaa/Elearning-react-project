@@ -31,7 +31,7 @@ const Home: NextPage = () => {
        <Link href="/elearninghome"> E-learning Homepage</Link>
       </button>
       <button className="text-white m-8 bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-2xl text-md px-8 py-4 text-center mr-2 mb-2">
-       <Link href="/form"> Form</Link>
+       <Link href="/Form"> Form</Link>
       </button>
     </div>
   );
