@@ -5,7 +5,7 @@ type Props = {}
 export default function Signupform({}: Props) {
   return (
     <div className="flex flex-col sm:flex-col sm:justify-between h-auto lg:w-7/12 lg:h-3/5 lg:m-40 md:w-4/5 md:h-3/5 md:m-12 md:my-40  bg-[#FAFFFD] shadow-lg border rounded-xl">
-    <form className="p-12 font-base">
+    <form action='post' className="p-12 font-base">
       <h1 className="w-44 h-12 font-semibold font-base text-3xl">Signup</h1>
       <input
         className="border-black-200 border-2 rounded bg-[#F9F9F9] h-12 px-3 my-2 block w-full text-[#5B5858]"

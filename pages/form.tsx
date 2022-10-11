@@ -26,7 +26,7 @@ const schema = yup
 
 type Props = {};
 
-export default function form({}: Props) {
+export default function Form({}: Props) {
   const {
     register,
     handleSubmit,
